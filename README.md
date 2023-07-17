@@ -7,6 +7,7 @@
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Architecture](#architecture)
+- [UI Design](#ui-design)
 - [Prerequisites](#prerequisites)
 - [Database Configuration](#database-configuration)
 - [Running the Application](#running-the-application)
@@ -177,3 +178,10 @@ The `Tkinter` documentation, which aided in creating the graphical user interfac
 
 
 Feel free to customize the content and functionality of this application according to your specific requirements.
+
+---
+
+## Contacts
+
+<a href="https://www.linkedin.com/in/aymane-maghouti/" target="_blank">Aymane Maghouti</a>\
+<a href="https://www.linkedin.com/in/ossama-outmani/" target="_blank">Ossama Outmani</a>
