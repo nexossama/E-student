@@ -14,6 +14,7 @@
 - [Usage](#usage)
 - [About](#about)
 - [Acknowledgments](#acknowledgments)
+- [Contacts](#contacts)
 
 
 ---
@@ -183,5 +184,5 @@ Feel free to customize the content and functionality of this application accordi
 
 ## Contacts
 
-<a href="https://www.linkedin.com/in/aymane-maghouti/" target="_blank">Aymane Maghouti</a>\
+<a href="https://www.linkedin.com/in/aymane-maghouti/" target="_blank">Aymane Maghouti</a><br>
 <a href="https://www.linkedin.com/in/ossama-outmani/" target="_blank">Ossama Outmani</a>
