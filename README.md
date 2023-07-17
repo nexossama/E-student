@@ -19,7 +19,7 @@
 
 ## Project Overview
 
-This is a student management system project built using `Python` and the `Tkinter` library. The application allows students to register, access their personal profile, and download course materials. It also provides an admin space for administrators to manage files, view student information, and upload news. The system utilizes `MySQL` as the database management system and incorporates features such as image validation using `opencv` and visitor tracking. The application is build using  `PyCharm IDEA`.
+This is a student management system project built using `Python` and the `Tkinter` library. The application allows students to register, access their personal profile, and download course materials. It also provides an admin space for administrators to manage files, view student information, and upload news. The system utilizes `MySQL` as the database management system and incorporates features such as image validation using `opencv` and visitor tracking. The application is build using  `PyCharm IDE`.
 
 ---
 ![Texte alternatif de l'image](images/logo.png)
@@ -46,6 +46,18 @@ The application is built using Python and utilizes the Tkinter library for the g
 We tried to design a detailed architecture of our database, and here is the result:
 
 ![Texte alternatif de l'image](images/E_R.png)
+
+---
+
+## UI Design
+
+The user interface design consists of custom-made widgets designed in Photopea -design tool- and converted into usable widgets using Python classes.
+
+Here's where you can find them:
+
+- The designed widgets are located in the **/client/assets** folder.
+- The corresponding class for each widget can be found in the **/client/CanvasToWidget.py** file.
+
 
 ---
 
@@ -139,9 +151,7 @@ It should be noted that to consult the admin space, you must provide the followi
 ![Texte alternatif de l'image](images/student.png)
 
 
-If you want to see how it's work, check the LinkedIn post where there is a video explaining how to use it, here it is the link of the post [https://www.linkedin.com/oussama]
-or this one :
-[https://www.linkedin.com/aymane]
+If you want to see how it's work, check the LinkedIn post where there is a video explaining how to use it, here it is the link of the post  : <a href="https://www.linkedin.com/feed/update/urn:li:activity:7086787315267723264/" target="_blank">Click here</a>
 
 ---
 
