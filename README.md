@@ -7,19 +7,21 @@
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Architecture](#architecture)
+- [UI Design](#ui-design)
 - [Prerequisites](#prerequisites)
 - [Database Configuration](#database-configuration)
 - [Running the Application](#running-the-application)
 - [Usage](#usage)
 - [About](#about)
 - [Acknowledgments](#acknowledgments)
+- [Contacts](#contacts)
 
 
 ---
 
 ## Project Overview
 
-This is a student management system project built using `Python` and the `Tkinter` library. The application allows students to register, access their personal profile, and download course materials. It also provides an admin space for administrators to manage files, view student information, and upload news. The system utilizes `MySQL` as the database management system and incorporates features such as image validation using `opencv` and visitor tracking. The application is build using  `PyCharm IDEA`.
+This is a student management system project built using `Python` and the `Tkinter` library. The application allows students to register, access their personal profile, and download course materials. It also provides an admin space for administrators to manage files, view student information, and upload news. The system utilizes `MySQL` as the database management system and incorporates features such as image validation using `opencv` and visitor tracking. The application is build using  `PyCharm IDE`.
 
 ---
 ![Texte alternatif de l'image](images/logo.png)
@@ -49,6 +51,18 @@ We tried to design a detailed architecture of our database, and here is the resu
 
 ---
 
+## UI Design
+
+The user interface design consists of custom-made widgets designed in Photopea -design tool- and converted into usable widgets using Python classes.
+
+Here's where you can find them:
+
+- The designed widgets are located in the **/client/assets** folder.
+- The corresponding class for each widget can be found in the **/client/CanvasToWidget.py** file.
+
+
+---
+
 
 ## Prerequisites
 
@@ -58,16 +72,15 @@ Before running the application, make sure you have the following prerequisites:
 
 `MySQL` database installed
 
-The libraries should be installed are :
+The libraries that should be installed are :
 
-`matplotlib`
-`mysql-connector-python`
-`numpy`
-`opencv-python`
-`Pillow`
-`scipy`
+`matplotlib` and `scipy` : visualising platform daily access data\
+`mysql-connector-python` : connect to MySQL via python\
+`numpy`\
+`opencv-python` : face detection and auto cropping faces in profile photos\
+`Pillow` : for Image handling
 
-Note that if you want to install all this labreris in one click, you just need to execute this command as it is shown [here](#running-the-application)
+Note that if you want to install all this libraries in one click, you just need to execute this command as it is shown [here](#running-the-application)
 
 ---
 
@@ -76,8 +89,8 @@ Note that if you want to install all this labreris in one click, you just need t
 To configure the `MySQL database` connection, follow these steps:
 
 Open the project in Pycharm (or just find the config.ini file).
-Locate the configuration file named conf.ini in the project's client folder.
-Open the conf.ini file and update the following properties with your MySQL database credentials:
+Locate the configuration file named config.ini in the project's client folder.
+Open the config.ini file and update the following properties with your MySQL database credentials:
 
 `host` : Specify the host name (default: localhost).
 
@@ -93,7 +106,7 @@ Open the conf.ini file and update the following properties with your MySQL datab
 
 Clone the repository:
 
-`git clone git@github.com:aymane-maghouti/E-student.git`
+`git clone https://github.com/nexossama/E-student.git`
 
 Install the required dependencies after navigating to the project folder (E-student):
 
@@ -101,13 +114,15 @@ Install the required dependencies after navigating to the project folder (E-stud
 
 you can run the application with two methods: 
 
-`first method` : navigate to the client folder after activating the virtual environment and run the client.py script using the terminal.
+`First method` : navigate to the client folder after activating the virtual environment and run the **client.py** script using the terminal.
 
-`Second method`: using Pycharm IDEA run the clien.py manually.
+`Second method`: using Pycharm IDE run the **client.py** manually.
 
 ---
 
 ## Usage
+
+Before running the E-student app, ensure that MySQL is turned On. The app itself handles the auto creation of the database if it does not exist ,named **student_managment**.
 
 Upon launching the application, users will be prompted to either log in or register, depending on whether they are an admin or a student. During the registration process, students are required to provide their personal information, including an image of themselves for validation.
 
@@ -115,15 +130,15 @@ After logging in, users will be directed to their respective spaces, where they 
 
 Mainly there are four interface
 
-#### Inerface 1 : `Login`
+#### Interface 1 : `Login`
 
 ![Texte alternatif de l'image](images/login.png)
 
-#### Inerface 2 : `Registration`
+#### Interface 2 : `Registration`
 
 ![Texte alternatif de l'image](images/registration.png)
 
-#### Inerface 3 : `Admin space`
+#### Interface 3 : `Admin space`
 
 It should be noted that to consult the admin space, you must provide the following email and password:
 
@@ -138,9 +153,7 @@ It should be noted that to consult the admin space, you must provide the followi
 ![Texte alternatif de l'image](images/student.png)
 
 
-If you want to see how it's work, check the linkedin post where there is a vedio explain how to use it, here it is the link of the post [https://www.linkedin.com/oussama]
-or this one :
-[https://www.linkedin.com/aymane]
+If you want to see how it's work, check the LinkedIn post where there is a video explaining how to use it, here it is the link of the post  : <a href="https://www.linkedin.com/feed/update/urn:li:activity:7086787315267723264/" target="_blank">Click here</a>
 
 ---
 
@@ -166,3 +179,10 @@ The `Tkinter` documentation, which aided in creating the graphical user interfac
 
 
 Feel free to customize the content and functionality of this application according to your specific requirements.
+
+---
+
+## Contacts
+
+<a href="https://www.linkedin.com/in/aymane-maghouti/" target="_blank">Aymane Maghouti</a><br>
+<a href="https://www.linkedin.com/in/ossama-outmani/" target="_blank">Ossama Outmani</a>
